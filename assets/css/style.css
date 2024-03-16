@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 98vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background-color: #022d70;
+    justify-content: space-between;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/industrial-chemistry.jpg);
+    background-size: cover;
+    
+}
+.banner h1{
+    font-size: 55px;
+    font-weight: normal;
+}
+.banner h1 span{
+    display: block;
+    font-size: 88;
+    font-weight: 600;
+}
+.banner aside{
+    padding: 30px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #022d7c;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button
+{
+    width: 100%;
+    height: 40px;
+    /* margin: 7px; */
+    text-align: center;
+    border: 5px solid #022d7c; 
+}
+.banner aside button{
+    background-color: #01fafa;
+}
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022d7c;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width: 350px;
+    height: 250px;
+
+}
+.feature div p{
+    margin-top: 7px;
+    font-size: 18px;
+    text-align: justify;
+}
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 100px;
+    background: #022d7c;
+}
+.about h2{
+    font-size: 33px;
+    margin-top: 7px;
+}                           
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    color: #fff;
+    margin-top: 10px;
+    padding: 15px 100px;
+    font-weight: bold;
+    background: #022d7c;
+    border: 2px solid #fff;
+    border-radius: 7px;
+}
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image,
+.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 573px;
+    height: auto;
+
+
+}
+.upper #dollar{
+    padding-left: 5%;
+}
+.lower #dsk{
+    padding-right: 5%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #022d7c;
+    color: #fff;
+    padding: 40PX 100px;
+    margin-top: 35px;
+    text-align: center;
+}
+footer .all{
+    font-size: 25;;
+    font-weight: bold;
+}
+
+
+
+
